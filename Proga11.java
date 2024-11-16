@@ -14,7 +14,7 @@ public class Proga11{
 		c = scanner.nextDouble();
 		if (a!= 0){
 			double D = (b*b)-(4*a*c);
-			if (D<0){
+			if (D>0){
 				double D2 = Math.sqrt(D);
 				double x1 = (-b +D2)/2*a;
 				double x2 = (-b -D2)/2*a;
