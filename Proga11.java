@@ -9,9 +9,9 @@ public class Proga11{
 			System.out.print("Попробуйте снова: ");
 		}		
 		double a,b,c;	
-		a = 2;
-		b = 6;
-		c = 2;
+		a = scanner.nextDouble();
+		b = scanner.nextDouble();
+		c = scanner.nextDouble();
 		if (a!= 0){
 			double D = (b*b)-(4*a*c);
 			if (D<0){
